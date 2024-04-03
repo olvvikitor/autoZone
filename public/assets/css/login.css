@@ -1,0 +1,64 @@
+/*  */
+:root{
+  --top-bar-bg-color: #f5d6d6;
+  --top-bar-text-color: #ffffff;
+
+  --menu-bg-color: #f74b4b;
+  --menu-fg-color:#ffffff;
+
+  --menu-group-text-color: #3a0c05;
+
+  --content-bg-color:#dddddd;
+  --content-fg-color:#000000;
+
+  --footer-bg-color: #000000;
+  --footer-fg-color: #ffffff;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+  }
+.login-page-bg{
+  background: radial-gradient(circle at top, var(--top-bar-bg-color), var(--menu-group-text-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.login-box{
+  width: 400px;
+  background: var(to bottom, var(--menu-group-text-color));
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.5);
+}
+.btn-login{
+  text-decoration: none;
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 100%;
+  border-radius: 50px;
+  transition: 0.2s ease-in-out;
+}
+.btn-login:hover{
+  background: #f74b4b;
+  color: #ffffff;
+}
+.login-link{
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+.login-link:hover{
+  color: #f74b4b;
+}

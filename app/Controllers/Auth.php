@@ -8,6 +8,6 @@ class Auth extends BaseController
 {
     public function index()
     {
-        echo "Auth controller";
+        return view('auth/login_frm');
     }
 }
