@@ -1,0 +1,52 @@
+/*app.css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body{
+  color: #ffffff;
+  background-color: #28251e;
+}
+.nav-link{
+  color: #ffa54c;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin:5px;
+}
+.nav-link:hover{
+  color: #ffc926;
+  text-decoration: underline;
+}
+.bg-color-02{
+  background-color: #2f2b24;
+}
+.btn-products{
+  background: linear-gradient(to bottom, #ffdb04, #ffa100);
+  color: black;
+  padding: 10px 60px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-products:hover{
+  background:linear-gradient(to bottom, #f0efee, #ffa100); ;
+}
+.product-box{
+  background-color: #2f2b24;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.product-text-color{
+  color: #ffc926;
+}
+.sobre-title{
+  color: #ffc926;
+  font-size: 3em;
+}
+.sobre-subtitle{
+  color: #ffc926;
+  font-size: 2em;
+}
