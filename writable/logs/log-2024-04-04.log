@@ -1,0 +1,91 @@
+CRITICAL - 2024-04-04 04:33:42 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Auth.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\autoZone_bo\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 04:34:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user_db_cig'@'localhost' (using password: YES) in C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'user_db_cig', Object(SensitiveParameterValue), 'db_cig_burger', 3306, '', 0)
+#1 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\autoZone_bo\app\Controllers\Auth.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+#5 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\autoZone_bo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\autoZone_bo\app\Controllers\Auth.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#3 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+#4 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\autoZone_bo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-04 04:34:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Auth.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM users')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-04 04:36:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user_db_cig'@'localhost' (using password: YES) in C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'user_db_cig', Object(SensitiveParameterValue), 'db_cig_burger', 3306, '', 0)
+#1 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\autoZone_bo\app\Controllers\Auth.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+#5 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\autoZone_bo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\autoZone_bo\app\Controllers\Auth.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#3 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+#4 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\laragon\www\autoZone_bo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\autoZone_bo\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-04 04:36:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Auth.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM users')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 04:47:43 --> Invalid file: "teste_db.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teste_db.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teste_db', [], true)
+ 3 APPPATH\Controllers\Auth.php(22): view('teste_db', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 04:48:01 --> Undefined variable $user
+in APPPATH\Views\test_db.php on line 22.
+ 1 APPPATH\Views\test_db.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\autoZone_bo\\app\\Views\\test_db.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\test_db.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('test_db', [], true)
+ 5 APPPATH\Controllers\Auth.php(22): view('test_db', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste_db()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

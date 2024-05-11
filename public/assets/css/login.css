@@ -1,9 +1,9 @@
 /*  */
 :root{
-  --top-bar-bg-color: #f5d6d6;
-  --top-bar-text-color: #ffffff;
+  --top-bar-bg-color: #0edceb;
+  --top-bar-text-color: #9adde6;
 
-  --menu-bg-color: #f74b4b;
+  --menu-bg-color: #2e86eb;
   --menu-fg-color:#ffffff;
 
   --menu-group-text-color: #3a0c05;
@@ -24,7 +24,7 @@
     font-family: "Montserrat", sans-serif;
   }
 .login-page-bg{
-  background: radial-gradient(circle at top, var(--top-bar-bg-color), var(--menu-group-text-color));
+  background: rgb(255,161,126);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +33,13 @@
 }
 .login-box{
   width: 400px;
+  height: 600px;
   background: var(to bottom, var(--menu-group-text-color));
   border-radius: 10px;
   padding: 40px;
-  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 12px 4px rgb(148, 116, 116);
 }
+
 .btn-login{
   text-decoration: none;
   background: transparent;

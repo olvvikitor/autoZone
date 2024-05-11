@@ -10,7 +10,7 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
 CRITICAL - 2024-04-03 04:05:44 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -21,7 +21,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:05:44 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -41,7 +41,7 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
 CRITICAL - 2024-04-03 04:06:38 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -52,7 +52,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:07:04 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -63,7 +63,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:07:08 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -74,7 +74,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:07:23 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -85,7 +85,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:07:24 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -96,7 +96,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:07:24 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -107,7 +107,7 @@ in SYSTEMPATH\View\View.php on line 423.
 CRITICAL - 2024-04-03 04:07:24 --> View themes, no current section.
 in SYSTEMPATH\View\View.php on line 423.
  1 APPPATH\Views\auth\login_frm.php(31): CodeIgniter\View\View->endSection()
- 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\cigburguer_bo\\app\\Views\\auth\\login_frm.php')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\auth\\login_frm.php')
  3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/login_frm', [], true)
  5 APPPATH\Controllers\Auth.php(11): view('auth/login_frm')
@@ -135,3 +135,201 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
  7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:32:47 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:33:00 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:34:12 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:35:45 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:35:45 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:36:14 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:36:15 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:36:16 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:40:19 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:40:19 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:40:20 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:42:30 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:42:31 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:42:41 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:42:42 --> Invalid file: "auth/dashboard_bo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/dashboard_bo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/dashboard_bo', [], true)
+ 3 APPPATH\Controllers\Auth.php(11): view('auth/dashboard_bo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 04:44:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\partials\nav.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:48:45 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\partials\header.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:53:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\partials\header.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:55:25 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\partials\header.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:56:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\partials\header.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:56:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\partials\nav.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:57:46 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes)
+in SYSTEMPATH\View\View.php on line 467.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 04:58:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes)
+in SYSTEMPATH\View\View.php on line 467.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-04-03 05:17:21 --> include(partials/nav): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\dashboard_bo.php on line 26.
+ 1 APPPATH\Views\layouts\dashboard_bo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/nav): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\autoZone_bo\\app\\Views\\layouts\\dashboard_bo.php', 26)
+ 2 APPPATH\Views\layouts\dashboard_bo.php(26): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\layouts\\dashboard_bo.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/dashboard_bo', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teste', [], true)
+ 7 APPPATH\Controllers\Auth.php(15): view('teste')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 05:18:05 --> include(partials/nav.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\dashboard_bo.php on line 26.
+ 1 APPPATH\Views\layouts\dashboard_bo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/nav.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\autoZone_bo\\app\\Views\\layouts\\dashboard_bo.php', 26)
+ 2 APPPATH\Views\layouts\dashboard_bo.php(26): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\layouts\\dashboard_bo.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/dashboard_bo', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teste', [], true)
+ 7 APPPATH\Controllers\Auth.php(15): view('teste')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-03 05:18:44 --> include(partials/nav.php): Failed to open stream: No such file or directory
+in APPPATH\Views\layouts\dashboard_bo.php on line 26.
+ 1 APPPATH\Views\layouts\dashboard_bo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/nav.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\autoZone_bo\\app\\Views\\layouts\\dashboard_bo.php', 26)
+ 2 APPPATH\Views\layouts\dashboard_bo.php(26): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\autoZone_bo\\app\\Views\\layouts\\dashboard_bo.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/dashboard_bo', [], true)
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teste', [], true)
+ 7 APPPATH\Controllers\Auth.php(15): view('teste')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->teste()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

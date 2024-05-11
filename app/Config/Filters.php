@@ -2,6 +2,7 @@
 
 namespace Config;
 
+use App\Filters\UserLogado;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -24,6 +25,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'userlogado' => UserLogado::class,
     ];
 
     /**
@@ -35,6 +37,13 @@ class Filters extends BaseConfig
      */
     public array $globals = [
         'before' => [
+            'userlogado' => [
+                'except' => [
+                    '/auth/login',
+                    '/auth/login_submit',
+                    '/auth/logout'
+                ]
+            ]
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',

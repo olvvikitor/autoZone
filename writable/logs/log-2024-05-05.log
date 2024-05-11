@@ -1,0 +1,14 @@
+ERROR - 2024-05-05 20:13:22 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\autoZone_bo\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\autoZone_bo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\autoZone_bo\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\autoZone_bo\app\Database\Migrations\2024-05-05-200409_UsersTable.php(63): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\autoZone_bo\system\Database\MigrationRunner.php(877): App\Database\Migrations\UsersTable->up()
+#6 C:\laragon\www\autoZone_bo\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\autoZone_bo\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\autoZone_bo\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\autoZone_bo\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\autoZone_bo\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
