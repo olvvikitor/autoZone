@@ -9,7 +9,7 @@
     <div class="col-lg-4 px-5 pt-5">
       <!-- img -->
       <div class="text-center">
-        <img id="product_img" class="product-img img-fluid">
+        <img id="product_img" class="product-img img-fluid" src="<?= base_url('assets/images/products/no-image.png')?>" >
       </div>
       <!-- File upload -->
       <div class="mt-3 text-start">
@@ -109,6 +109,5 @@
   })
 </script>
 <?= $this->endSection() ?>
-```
 
-Agora o código está organizado de forma mais limpa, com os elementos agrupados logicamente e o formulário bem estruturado.
+

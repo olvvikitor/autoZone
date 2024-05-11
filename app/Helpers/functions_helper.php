@@ -21,3 +21,16 @@ function calculate_promotion($value, $discount){
 function normalize_price($price) {
   return number_format($price, 2, ',', '.');
 }
+function print_data($data, $die = true) {
+  echo '<pre>';
+  echo str_repeat('-', 40);
+  echo '<br>';
+  echo print_r($data, true);
+  echo '<br>';
+  echo str_repeat('-', 40);
+  if($die){
+    die(1);
+  }
+
+
+}

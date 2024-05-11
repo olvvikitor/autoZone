@@ -181,13 +181,15 @@ class Products extends BaseController
         $data['cores'] = $product_model->select('color')->distinct()->findAll();
 
         if(!file_exists('./assets/images/products/'. $data['product']->image)){
-            $data['product']->image = 'noimage.png';
+            $data['product']->image = 'no-image.png';
         }
 
         return view('dashboard/products/edit_frm_product', $data);
     }
     public function edit_submit()
     {
+        
+        $id = $this->request->getPost('id_product');
         //form validation
         $validation = $this->validate([
 
@@ -260,27 +262,14 @@ class Products extends BaseController
         }
         $products_model = new ProductModel();
 
-        // checar se existe produto
-        $product = $products_model->find($this->request->getPost('id_product'));
-        $product_name_exists = $products_model->findAll();
+        //checar se existe produto
 
-        foreach ($product_name_exists as $product_name) {
-            if ($product_name->name == $this->request->getPost('name') && $product_name->id != $this->request->getPost('id_product')) {
-                return redirect()->back()->withInput()->with('validation_errors', ['name' => 'Já existe um produto com esse nome']);
-            }
-        }
-
-        // $product = $products_model->where('name', $this->request->getPost('name'))->where('id != ', $this->request->getPost('id_product'));
-        // if($product){
-        //     return redirect()->back()->withInput()->with('validation_errors', ['name' => 'Já existe um produto com esse nome']);
-        // } 
-        
-        //upload image
-        $file_img = $this->request->getFile('file_img');
-        if(!empty($this->request->getFile('file_img'))){
-            $file_img = $product->image;
-        }
-
+        $product = $products_model->where('name', $this->request->getPost('name'))->where('id != ', $this->request->getPost('id_product'))->first();
+        if($product){
+            return redirect()->back()->withInput()->with('validation_errors', ['name' => 'Já existe um produto com esse nome']);
+        } 
+    
+   
         //preparar para inserir no banco
         $data = [
             'name' => $this->request->getPost('name'),
@@ -291,10 +280,17 @@ class Products extends BaseController
             'cor' => $this->request->getPost('cor'),
             'promotion' => $this->request->getPost('valor_promocional'),
             'stock_min' => $this->request->getPost('estoque_minimo'),
-            'image' => $file_img->getName(),
         ];
-        //insert
-        $products_model->update($product->id,$data);
+        //upload image
+        $file_img = $this->request->getFile('file_img');
+
+        if ($file_img && $file_img->getName() != '') {
+            // dd($file_img->getName());
+            $file_img->move(ROOTPATH . 'public/assets/images/products', $file_img->getName(), true);
+            $data['image'] = $file_img->getName(); 
+        }
+        //update
+        $products_model->update($id ,$data);
         return redirect()->to(base_url('/products'));
     }
     public function remove_product()

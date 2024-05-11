@@ -10,7 +10,7 @@
     <div class="col-lg-4 px-5 pt-5">
       <!-- img -->
       <div class="text-center">
-        <img name="product_img" id="product_img" src="<?=base_url('./assets/images/products/' . $product->image)?>" class="product-img img-fluid">
+        <img name="product_img" id="product_img" src="<?=base_url('assets/images/products/' . $product->image)?>" class="product-img img-fluid">
       </div>
       <!-- File upload -->
       <div class="mt-3 text-start">

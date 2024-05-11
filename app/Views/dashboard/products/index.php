@@ -8,7 +8,6 @@
 <!-- Products list -->
 <?php
 
-
  if(empty($products)): ?>
     <div class="text-center mt-5">
     <h4 class="opacity-50 mb-3">Não existem produtos disponiveis</h4>
