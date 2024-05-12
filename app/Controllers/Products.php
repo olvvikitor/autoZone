@@ -70,7 +70,7 @@ class Products extends BaseController
                 'rules' => 'required|regex_match[/^\d+\.\d{2}$/]',
                 'errors' => [
                     'required' => 'O campo {field} é obrigatório',
-                    'max_length' => 'O campo {field} deve ter no máximo {param} caracteres',
+                    'regex_max' => 'O campo {field} tem q ser Ex: 1,99',
                     'min_length' => 'O campo {field} deve ter no mínimo {param} caracteres',
                 ]
             ],
@@ -170,7 +170,7 @@ class Products extends BaseController
         $data = [
             'title' => 'Products',
             'page' => 'Edição  de produto',
-        ];
+                ];
         $data['validation_errors'] = session()->getFlashdata('validation_errors');
         $product_model = new ProductModel();
         $data['product'] = $product_model->find($id);
@@ -183,7 +183,7 @@ class Products extends BaseController
         if(!file_exists('./assets/images/products/'. $data['product']->image)){
             $data['product']->image = 'no-image.png';
         }
-
+        
         return view('dashboard/products/edit_frm_product', $data);
     }
     public function edit_submit()
@@ -263,7 +263,6 @@ class Products extends BaseController
         $products_model = new ProductModel();
 
         //checar se existe produto
-
         $product = $products_model->where('name', $this->request->getPost('name'))->where('id != ', $this->request->getPost('id_product'))->first();
         if($product){
             return redirect()->back()->withInput()->with('validation_errors', ['name' => 'Já existe um produto com esse nome']);
@@ -293,8 +292,12 @@ class Products extends BaseController
         $products_model->update($id ,$data);
         return redirect()->to(base_url('/products'));
     }
-    public function remove_product()
+    public function remove_product($id)
     {
-        echo "deletar product";
+
+        $products_model = new ProductModel();
+        $products_model->delete($id);
+        
+        return redirect()->to(base_url('/products'));
     }
 }

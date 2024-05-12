@@ -22,12 +22,19 @@ $routes->get('/products/edit/(:alphanum)', 'Products::edit/$1');
 $routes->post('/products/edit_submit', 'Products::edit_submit');
 
 //remove product
-$routes->get('/products/remove/(:alphanum)', 'Products::remove/$1');
+$routes->get('/products/remove/(:alphanum)', 'Products::remove_product/$1');
 $routes->get('/products/remove_confirm(:alphanum)', 'Products::remove_confirm/$1');
 
-//stock product
-$routes->get('/products/stock/(:alphanum)', 'Products::stock/$1');
-$routes->post('/products/stock_submit', 'Products::stock_submit');
+//stock all product
+$routes->get('/stock', 'Stock::index');
+//stock one product
+$routes->get('/stock/product/(:alphanum)', 'Stock::stock/$1');
+//edit stock one product
+$routes->post('/stock/product/adicionar', 'Stock::adicionar_submit');
+//remove stock one product
+$routes->get('/stock/product/remover/(:alphanum)', 'Stock::remover/$1');
+//remove submit
+$routes->post('/stock/product/remover_submit', 'Stock::remover_submit');
 
 
 

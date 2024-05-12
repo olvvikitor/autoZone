@@ -73,7 +73,7 @@ class ProductSeeder extends Seeder
                 'promotion' => 0,
                 'stock' => 100,
                 'stock_min' => 10,
-                'image' => 'camiseta_polo.png',
+                'image' => 'camiseta_polo.jpg',
                 'color' => 'Azul',
                 'marca' => 'Polo Ralph Lauren',
                 'created_at' => date('Y-m-d H:i:s'),
