@@ -39,8 +39,8 @@
       <?php endif; ?>
 
       <div class="d-flex justify-content-start">
-        <a href="<?= site_url('products/edit/' . $product->id) ?>" class="btn btn-sm btn-outline-secondary my-1 mx-1"><i class="fas fa-edit edit-icon me-1"></i>Editar</a>
-        <a onclick="showConfirmAlert(<?= $product->id ?>)" class="btn btn-sm btn-outline-secondary my-1 mx-1"><i class="fas fa-trash-alt remove-icon me-1"></i>Remover</a>
+        <a href="<?= site_url('products/edit/' . $product->id) ?>" class="btn btn-sm btn-outline-success my-1 mx-1"><i class="fas fa-edit edit-icon me-1"></i>Editar</a>
+        <a onclick="showConfirmAlert(<?= $product->id ?>)" class="btn btn-sm btn-outline-danger my-1 mx-1"><i class="fas fa-trash-alt remove-icon me-1"></i>Remover</a>
       </div>
     </div>
   </div>

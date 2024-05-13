@@ -36,6 +36,14 @@ class ProductsTable extends Migration
                 'null'           => true,
                 'default' => 0.00
             ],
+            'inicial_promotion_date' => [
+                'type'           => 'DATETIME',
+                'null'           => true,
+            ],
+            'final_promotion_date' => [
+                'type'           => 'DATETIME',
+                'null'           => true,
+            ],
             'stock' => [
                 'type'           => 'BIGINT',
                 'constraint'     => 11,

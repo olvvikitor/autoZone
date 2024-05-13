@@ -43,6 +43,16 @@
             <?= display_errors('valor_promocional', $validation_errors) ?>
           </div>
           <div class="form-group">
+            <label for="inputPromotionInitial">Data inicial da promoção</label>
+            <input type="date" class="form-control" value="<?= old('valor_promocional') ?>" name="data_inicial" id="inputCity">
+            <?= display_errors('data_inicial', $validation_errors) ?>
+          </div>
+          <div class="form-group">
+            <label for="inputPromotionfinal">Data final da promoção</label>
+            <input type="date" class="form-control date" value="<?= old('valor_promocional') ?>" name="data_final" id="inputCity">
+            <?= display_errors('data_final', $validation_errors) ?>
+          </div>
+          <div class="form-group">
             <label for="inputEstado">Estoque Mínimo</label>
             <input type="number" class="form-control" value="<?= old('estoque_minimo') ?>" name="estoque_minimo" id="inputMin">
             <?= display_errors('estoque_minimo', $validation_errors) ?>

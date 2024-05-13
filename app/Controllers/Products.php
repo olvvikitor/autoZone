@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\ProductModel;
+use DateTime;
 
 class Products extends BaseController
 {
@@ -144,6 +145,7 @@ class Products extends BaseController
             return redirect()->back()->withInput()->with('validation_errors', ['name' => 'Já existe um produto com esse nome']);
         }
 
+
         //upload image
         $file_img = $this->request->getFile('file_img');
         $file_img->move(ROOTPATH . 'public/assets/images/products', $file_img->getName(), true);
@@ -159,6 +161,8 @@ class Products extends BaseController
             'promotion' => $this->request->getPost('valor_promocional'),
             'stock_min' => $this->request->getPost('estoque_minimo'),
             'image' => $file_img->getName(),
+            'inicial_promotion_date' =>$this->request->getPost('data_inicial'),
+            'final_promotion_date' => $this->request->getPost('data_final')
         ];
         //insert
         $products_model->insert($data);
@@ -267,8 +271,7 @@ class Products extends BaseController
         if($product){
             return redirect()->back()->withInput()->with('validation_errors', ['name' => 'Já existe um produto com esse nome']);
         } 
-    
-   
+        
         //preparar para inserir no banco
         $data = [
             'name' => $this->request->getPost('name'),
@@ -288,6 +291,17 @@ class Products extends BaseController
             $file_img->move(ROOTPATH . 'public/assets/images/products', $file_img->getName(), true);
             $data['image'] = $file_img->getName(); 
         }
+
+        $data_inicial  = $this->request->getPost('data_inicial');
+        $data_final = $this->request->getPost('data_final');
+
+        if($data_inicial > $data_final){
+            return redirect()->back()->withInput()->with('validation_errors', ['data_inicial' => 'A data inicial deve ser anterior a data final', 'data_final'=>'A data final deve ser superior a data inicial']);
+        }
+        $data = [
+            'inicial_promotion_date' => $data_inicial,
+            'final_promotion_date' => $data_final
+        ];
         //update
         $products_model->update($id ,$data);
         return redirect()->to(base_url('/products'));

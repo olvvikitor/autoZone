@@ -24,6 +24,8 @@ class ProductModel extends Model
         'stock_min',
         'image', 
         'created_at',
+        'inicial_promotion_date',
+        'final_promotion_date'
     ];
 
     // Dates
